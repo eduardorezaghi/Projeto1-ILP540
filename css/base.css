@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+  }
+
+
+#cabecalho #logo{
+    float: right;
+    height: auto;
+    min-width: 1%;
+    width: 100%;
+    max-width: 8.7%;
+    float: right;
+    margin-top: 8px;
+    margin-right: 20px;
+    
+}
+
+#navegacao ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+} #navegacao li{
+    border: solid 1px #ccc;
+    text-align: center;
+    background-color: darkblue;
+    box-shadow: 2px 2px lightblue;
+    padding: 4px;
+    margin: 0.5px;
+    
+} #navegacao a{
+    text-decoration: none;
+    display: flex;
+    text-transform: uppercase;  
+    text-shadow: none;  
+    color: white;
+}
+
+.grid #principal{
+    text-align: justify;
+    padding: 0.5em;
+}
+
+.grid aside, #rodape{
+    padding-left: 0.5em;
+}

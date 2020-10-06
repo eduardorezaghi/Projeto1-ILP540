@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 1200px){
+
+#cabecalho {grid-area: a; background-color: blueviolet;}           
+#navegacao {grid-area: b; background-color: aqua;}      
+#principal {grid-area: c; background-color: rgb(73, 122, 226);}
+#sidebar   {grid-area: d; background-color: mintcream;}
+#rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
+
+.grid {                  
+     display: grid;
+     grid-template: 
+     "a a a" 130px 
+     "b b b" auto 
+     "c c d" auto 
+     "c c d" auto 
+     "e e e" 130px / 5fr 5fr 2fr; 
+    }
+}
+

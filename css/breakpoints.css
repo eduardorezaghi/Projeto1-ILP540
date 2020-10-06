@@ -1,0 +1,34 @@
+    #cabecalho {grid-area: a; background-color: blueviolet;}           
+    #navegacao {grid-area: b; background-color: aqua;}      
+    #principal {grid-area: c; background-color: rgb(73, 122, 226);}
+    #sidebar   {grid-area: d; background-color: mintcream;}
+    #rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
+
+@media screen {                            /* Para dispositivos de quaisquer tamanhos... */
+  
+    h1 {
+        font-size: 180%;
+        line-height: 50px;
+    }   
+}
+
+@media screen and (max-width:560px) {     
+
+    .grid {
+        grid-template-areas:
+            "a"
+            "b"                   
+            "c"
+            "d"
+            "e";
+        grid-template-rows: 20vh auto auto 20vh;
+     }
+    .grid #navegacao ul{
+    list-style-type: none;
+    display: block;
+    flex-wrap:wrap;
+    justify-content: center;
+    }
+    
+    /* Outras declarações de ajustes aqui... */
+}                                                                                       
