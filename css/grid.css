@@ -10,7 +10,7 @@
 .grid {                  
      display: grid;
      grid-template: 
-     "a a a" 130px 
+     "a a a" auto 
      "b b b" auto 
      "c c d" auto 
      "c c d" auto 

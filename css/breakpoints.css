@@ -9,10 +9,78 @@
     h1 {
         font-size: 180%;
         line-height: 50px;
-    }   
+    }
+    #logo {
+        width: 15%;
+        height: auto;
+    }
+    
+    #navegacao > #lista_navegacao{
+        //display: none;
+    }
+    #navegacao ul li{
+        margin-bottom: 1.2px;
+        width: 100%;
+    }
 }
 
-@media screen and (max-width:560px) {     
+@media screen and (max-width:480px) {
+    #logo {
+        display: none;
+    }
+    #titulo_pag{
+        text-align: center;
+    }
+}
+@media screen and (min-width:480px) {
+    h1{
+        line-height: 90px;
+    }
+    #logo {
+        width: 15%;
+        height: auto;
+    }
+    #lista_navegacao{
+        display: block;
+    }
+    /* Adicionar footer aqui */
+}
+
+@media screen and (min-width:650px) {
+    #lista_navegacao{
+        display: flex;
+    }
+    #navegacao{
+        position: sticky;
+        top: 0;
+    }
+    #navegacao ul li{
+        width: calc(99%/3);
+    }
+}
+
+@media screen and (min-width:980px) {
+    h1{
+        font-size: 200%;
+    }
+    #logo{
+        max-width: 95px;
+    }
+    #lista_navegacao{
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width:1200px){
+    #grid_container{
+        max-width: 1440px;
+    }
+    #cabecalho{
+        width: 100%;
+    }
+}
+
+/* @media screen and (max-width:480px) {     
 
     .grid {
         grid-template-areas:
@@ -21,7 +89,7 @@
             "c"
             "d"
             "e";
-        grid-template-rows: 20vh auto auto 20vh;
+        grid-template-rows: 30vh auto auto auto;
      }
     .grid #navegacao ul{
     list-style-type: none;
@@ -30,5 +98,4 @@
     justify-content: center;
     }
     
-    /* Outras declarações de ajustes aqui... */
-}                                                                                       
+}         */                                                                              

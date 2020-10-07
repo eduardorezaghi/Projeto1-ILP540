@@ -1,28 +1,85 @@
-* {
-    margin: 0;
-    padding: 0;
-    display: block;
-    box-sizing: border-box;
-  }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+html, body{
+    font-size: 18px;
+    background-color: darkgray;
+}
+
+#cabecalho{
+    margin: 0 auto;
+    height: 150px;
+    padding: 13px;
+}
 
 #cabecalho #logo{
     float: right;
-    height: auto;
     min-width: 1%;
-    width: 100%;
-    max-width: 8.7%;
+    max-width: 95px;
     float: right;
-    margin-top: 8px;
-    margin-right: 20px;
+    margin: 0 auto;
     
 }
 
 #navegacao ul{
     list-style-type: none;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
+    /*display: flex;
+    flex-wrap:wrap;*/
+    justify-content: flex-end;
 } #navegacao li{
     border: solid 1px #ccc;
     text-align: center;
@@ -30,20 +87,42 @@
     box-shadow: 2px 2px lightblue;
     padding: 4px;
     margin: 0.5px;
+    transition: background-color 0.7s;
     
 } #navegacao a{
-    text-decoration: none;
-    display: flex;
+    text-decoration: none
+    display: block;
     text-transform: uppercase;  
     text-shadow: none;  
     color: white;
 }
 
-.grid #principal{
+#navegacao li:hover{
+    background-color: rgb(255, 255, 255, 0.50);
+}
+
+.grid #principal > article{
     text-align: justify;
-    padding: 0.5em;
+    padding: 13px;
+} 
+
+article > a{
+    display: inline;
 }
 
 .grid aside, #rodape{
     padding-left: 0.5em;
 }
+
+#rodape{
+    padding: 25px;
+}
+#rodape table{
+    margin: auto;
+    margin-top: 20px;
+} #rodape td{
+    display: inline-block;
+    min-width: 160px;
+}
+
+
