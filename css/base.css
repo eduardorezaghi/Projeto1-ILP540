@@ -57,8 +57,15 @@ table {
 
 html, body{                 /* Contempla todo o conteúdo. */
     font-size: 18px;
-    background-color: darkgray;
-    font-family: ubuntu;
+    background-color: rgb(19, 21, 22);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.grid{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 /*==================================================================================================================*/
 
@@ -66,7 +73,8 @@ html, body{                 /* Contempla todo o conteúdo. */
 #cabecalho{
     margin: 0 auto;
     height: 150px;
-    padding: 13px;
+    padding: 20px;
+    color:rgb(235 136 15);
 }   #cabecalho #logo{
         float: right;
         min-width: 1%;
@@ -109,7 +117,23 @@ html, body{                 /* Contempla todo o conteúdo. */
 article > a{                /* Abrange o hiperlink contido no artigo */
     display: inline;
 }
-
+#iframe_principal{
+    background-color: brown;
+    margin: 0 auto;
+    height: 300px;
+    width: 400px;
+}
+#principal_bemvindo{
+	font-family: 'Piazzolla', serif;
+	font-size: 35px;
+	margin: 15px 0 25px 0;
+	text-align:center;
+	text-shadow:1px 1.5px gray
+}
+#iframe_principal > img{
+    max-width: 100%;
+    height: auto;
+}
 /*==================================================================================================================*/
 
 /* RODAPE */
