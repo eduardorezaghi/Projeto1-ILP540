@@ -88,6 +88,8 @@ html, body{                 /* Contempla todo o conteúdo. */
 /* MENU DE NAVEGAÇÃO (NAV-BAR) */
 #navegacao ul{                          /* Abrange a Lista que compõe os itens do navbar */
     list-style-type: none;
+    /*display: flex;
+    flex-wrap:wrap;*/
     justify-content: flex-end;
 } 
 #navegacao li{                          /* Abrange os itens dessa Lista */
@@ -140,6 +142,7 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 .grid aside, #rodape{
     padding-left: 0.5em;
 }
+
 #rodape{
     padding: 25px;
 }
