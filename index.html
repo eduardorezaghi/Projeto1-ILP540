@@ -8,72 +8,78 @@
         <link rel="stylesheet" href="css/breakpoints.css">
         <title>Projeto 1</title>
     </head>
-    <body>
-        <div class="grid">
-            <header id="cabecalho" class="grid-item">
+
+
+    <body>  <!-- Início do body: corpo principal do site, que contém toda a estrutura + conteúdo.. -->
+        <div class="grid">      <!-- Div utilizada como a grade (grid) na qual os outros elementos estarão contidos. -->
+
+
+
+            <header id="cabecalho" class="grid-item">           <!-- Cabeçalho: para incluir informação do título e o logo do nosso site. -->
                 <h1 id="titulo_pag"> Projeto 1
-                <img id="logo" src="imagens/mozilla-logo.png" alt="Logo da Mozilla">
+                    <img id="logo" src="imagens/mozilla-logo.png" alt="Logo da Mozilla">
                 </h1>
-                
-                
             </header>
-            <nav id="navegacao" class="grid-item">
-                <ul id="lista_navegacao">
-                    <li><a href="#">Home</a></li>
-                        <td></td>
-                    <li><a href="ma">Artigos mais lidos</a></li>
-                    <li><a href="outros.html">Outros</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+
+
+
+
+
+            <nav id="navegacao" class="grid-item">                  <!-- Menu de navegação: possibilita o usuário de navegar pelas páginas do site. -->
+                <ul id="lista_navegacao">    <!-- Lista que compõe os itens do navbar. -->
+                    <li>    <a href="#">Home</a>                  </li> <!-- Item da lista. -->
+                    <li>    <a href="ma">Artigos mais lidos</a>   </li> <!-- Item da lista. -->
+                    <li>    <a href="outros.html">Outros</a>      </li> <!-- Item da lista. -->
+                    <li>    <a href="contato.html">Contato</a>    </li> <!-- Item da lista. -->
                 </ul>
             </nav>
-            <section id="principal" class="grid-item">Principal(c)
-                <article>
+
+
+
+
+
+            <section id="principal" class="grid-item">                  <!-- Seção principal do site: contém os artigos principais. -->
+                Principal(c)
+                <article> <!-- Artigo que contém conteúdo. -->
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>  
-                    <a href="http://google.com" target="_blank">Google</a>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        </p>  
-                        <a href="http://google.com" target="_blank">Google</a>
-                        <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            </p>  
-                            <a href="http://google.com" target="_blank">Google</a>
-                            <p>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                    
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> <!-- Parágrafo. -->  
+                    <a href="http://google.com" target="_blank">Google</a>  <!-- Link que abre em uma nova guia. -->
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- Parágrafo. -->
                 </article>
             </section>
-            <aside id="sidebar" class="grid-item">Sidebar(d)
-                <ul id="menu_aside" class="menu_nav">
-                    <li>Teste 1</li>
-                    <li>Teste 2</li>
+
+
+
+            <aside id="sidebar" class="grid-item">                      <!-- Menu aside: contém links para navegar pelos artigos. -->
+                Sidebar(d)
+                <ul id="menu_aside" class="menu_nav">   <!-- Menu aside em formato de lista. -->
+                    <li>Teste 1</li>     <!-- Item da lista. -->
+                    <li>Teste 2</li>     <!-- Item da lista. -->
                 </ul>
             </aside>
-            <footer id="rodape" class="grid-item">
-                <table>
-                    <tr>
-                        <td><a href="#">Home</a></td>
-                        <td><a href="maislidos.html">Artigos mais lidos</a></td>
-                        <td><a href="outros.html">Outros</a></td>
-                        <td><a href="contato.html">Contato</a></td>
+
+
+
+
+
+            <footer id="rodape" class="grid-item">                      <!-- Rodapé: contém um menu de navegação igual ao <nav>, mas em formato de tabela. -->
+                <table>         <!-- Tabela contida no rodapé (footer), que representa o menu de navegação. -->
+                    <tr>    <!-- Linha da tabela (table row) -->
+                        <td><a href="#">Home</a></td>                            <!-- "Coluna" da tabela, que contém dados (table data) -->
+                        <td><a href="maislidos.html">Artigos mais lidos</a></td> <!-- "Coluna" da tabela, que contém dados (table data) -->
+                        <td><a href="outros.html">Outros</a></td>                <!-- "Coluna" da tabela, que contém dados (table data) -->
+                        <td><a href="contato.html">Contato</a></td>              <!-- "Coluna" da tabela, que contém dados (table data) -->
                     </tr>
                 </table>
+
                 <address>
                     <p>&copy; ILP-540 – Fatec-SP</p>
                 </address>
             </footer>
-        </div>
+
+
+
+        </div>  <!-- Fim da Grade (grid) -->
     </body>
 </html>

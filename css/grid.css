@@ -1,8 +1,7 @@
-
 @media screen and (min-width: 1200px){
 
 #cabecalho {grid-area: a; background-color: blueviolet;}           
-#navegacao {grid-area: b; background-color: aqua;}      
+#navegacao {grid-area: b; background-color: hotpink;}      
 #principal {grid-area: c; background-color: rgb(73, 122, 226);}
 #sidebar   {grid-area: d; background-color: mintcream;}
 #rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
@@ -16,5 +15,8 @@
      "c c d" auto 
      "e e e" 130px / 5fr 5fr 2fr; 
     }
+  .grid{
+    width: 90%;
+    margin: 0 auto;
+  }
 }
-

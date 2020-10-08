@@ -53,63 +53,68 @@ table {
 
 
 
+/* Início da estilização da página */
 
-
-html, body{
+html, body{                 /* Contempla todo o conteúdo. */
     font-size: 18px;
     background-color: darkgray;
+    font-family: ubuntu;
 }
+/*==================================================================================================================*/
 
+/* CABECALHO */
 #cabecalho{
     margin: 0 auto;
     height: 150px;
     padding: 13px;
+}   #cabecalho #logo{
+        float: right;
+        min-width: 1%;
+        max-width: 95px;
+        float: right;
+        margin: 0 auto;
 }
 
-#cabecalho #logo{
-    float: right;
-    min-width: 1%;
-    max-width: 95px;
-    float: right;
-    margin: 0 auto;
-    
-}
+/*==================================================================================================================*/
 
-#navegacao ul{
+/* MENU DE NAVEGAÇÃO (NAV-BAR) */
+#navegacao ul{                          /* Abrange a Lista que compõe os itens do navbar */
     list-style-type: none;
     /*display: flex;
     flex-wrap:wrap;*/
     justify-content: flex-end;
-} #navegacao li{
-    border: solid 1px #ccc;
+} 
+#navegacao li{                          /* Abrange os itens dessa Lista */
     text-align: center;
     background-color: darkblue;
-    box-shadow: 2px 2px lightblue;
     padding: 4px;
     margin: 0.5px;
     transition: background-color 0.7s;
-    
-} #navegacao a{
-    text-decoration: none
+    }   #navegacao li:hover{ background-color: rgb(255, 255, 255, 0.50);   }  /* Efeito de preenchimento ao passar o mouse por cima */
+
+#navegacao a{                           /* Abrange os hiperlinks contidos em cada item */
+    text-decoration: none;
     display: block;
     text-transform: uppercase;  
     text-shadow: none;  
     color: white;
 }
 
-#navegacao li:hover{
-    background-color: rgb(255, 255, 255, 0.50);
-}
+/*==================================================================================================================*/
 
-.grid #principal > article{
+/* PRINCIPAL */
+.grid #principal > article{ /* Abrange o artigo principal */
     text-align: justify;
     padding: 13px;
 } 
 
-article > a{
+article > a{                /* Abrange o hiperlink contido no artigo */
     display: inline;
 }
 
+/*==================================================================================================================*/
+
+/* RODAPE */
 .grid aside, #rodape{
     padding-left: 0.5em;
 }
@@ -124,5 +129,3 @@ article > a{
     display: inline-block;
     min-width: 160px;
 }
-
-

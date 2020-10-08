@@ -1,5 +1,5 @@
     #cabecalho {grid-area: a; background-color: blueviolet;}           
-    #navegacao {grid-area: b; background-color: aqua;}      
+    #navegacao {grid-area: b; background-color: hotpink;}      
     #principal {grid-area: c; background-color: rgb(73, 122, 226);}
     #sidebar   {grid-area: d; background-color: mintcream;}
     #rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
@@ -32,7 +32,22 @@
         text-align: center;
     }
 }
-@media screen and (min-width:480px) {
+@media screen and (max-width:649px) {
+    .grid {
+        grid-template-areas:
+            "a"
+            "b"                   
+            "c"
+            "d"
+            "e";
+        grid-template-rows: 30vh auto auto auto;
+        }
+    .grid #navegacao ul{
+    list-style-type: none;
+    display: block;
+    flex-wrap:wrap;
+    justify-content: center;
+    }
     h1{
         line-height: 90px;
     }
@@ -43,7 +58,7 @@
     #lista_navegacao{
         display: block;
     }
-    /* Adicionar footer aqui */
+    /* Adicionar footer aqui */                                                                                   
 }
 
 @media screen and (min-width:650px) {
@@ -79,23 +94,3 @@
         width: 100%;
     }
 }
-
-/* @media screen and (max-width:480px) {     
-
-    .grid {
-        grid-template-areas:
-            "a"
-            "b"                   
-            "c"
-            "d"
-            "e";
-        grid-template-rows: 30vh auto auto auto;
-     }
-    .grid #navegacao ul{
-    list-style-type: none;
-    display: block;
-    flex-wrap:wrap;
-    justify-content: center;
-    }
-    
-}         */                                                                              
