@@ -1,49 +1,50 @@
-    #cabecalho {grid-area: a; background-color: blueviolet;}           
-    #navegacao {grid-area: b; background-color: aqua;}      
+#cabecalho {grid-area: a; 
+background: 
+linear-gradient(47deg,
+ rgba(19,21,22,1) 0%, 
+ rgba(68,63,61,1) 63%, 
+ rgb(115 106 101) 100%);}  
+    #navegacao {grid-area: b;background-color: darkblue;}      
     #principal {grid-area: c; background-color: rgb(73, 122, 226);}
     #sidebar   {grid-area: d; background-color: mintcream;}
     #rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
 
 @media screen {                            /* Para dispositivos de quaisquer tamanhos... */
   
-    h1 {
+    #titulo_pag{
         font-size: 180%;
         line-height: 50px;
+        text-align: center;
+        line-height: 90px;
+        
+
     }
     #logo {
-        width: 15%;
+        width: 16%;
         height: auto;
     }
-    
-    #navegacao > #lista_navegacao{
-        //display: none;
-    }
-    #navegacao ul li{
+    #navegacao #lista_navegacao li{
         margin-bottom: 1.2px;
         width: 100%;
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:480px){
     #logo {
         display: none;
     }
-    #titulo_pag{
-        text-align: center;
-    }
 }
-@media screen and (min-width:480px) {
-    h1{
-        line-height: 90px;
-    }
+
+@media screen and (min-width:480px) and (max-width:649px) {
+
     #logo {
-        width: 15%;
+        width: 16%;
         height: auto;
     }
     #lista_navegacao{
         display: block;
     }
-    /* Adicionar footer aqui */
+    /* Adicionar footer aqui */                                                                                   
 }
 
 @media screen and (min-width:650px) {
@@ -54,17 +55,17 @@
         position: sticky;
         top: 0;
     }
-    #navegacao ul li{
-        width: calc(99%/3);
+    #navegacao #lista_navegacao li{
+        width: calc(100%/4);
     }
 }
 
 @media screen and (min-width:980px) {
-    h1{
+    #titulo_pag{
         font-size: 200%;
     }
     #logo{
-        max-width: 95px;
+        max-width: 100px;
     }
     #lista_navegacao{
         justify-content: flex-end;
@@ -79,23 +80,3 @@
         width: 100%;
     }
 }
-
-/* @media screen and (max-width:480px) {     
-
-    .grid {
-        grid-template-areas:
-            "a"
-            "b"                   
-            "c"
-            "d"
-            "e";
-        grid-template-rows: 30vh auto auto auto;
-     }
-    .grid #navegacao ul{
-    list-style-type: none;
-    display: block;
-    flex-wrap:wrap;
-    justify-content: center;
-    }
-    
-}         */                                                                              
