@@ -74,7 +74,9 @@ html, body{                 /* Contempla todo o conteúdo. */
     margin: 0 auto;
     height: 150px;
     padding: 20px;
+    background: linear-gradient(47deg,rgba(19,21,22,1) 0%, rgba(68,63,61,1) 63%, rgb(115 106 101) 100%);
     color:rgb(235 136 15);
+    
 }   #cabecalho #logo{
         float: right;
         min-width: 1%;
@@ -86,15 +88,16 @@ html, body{                 /* Contempla todo o conteúdo. */
 /*==================================================================================================================*/
 
 /* MENU DE NAVEGAÇÃO (NAV-BAR) */
+#navegacao {
+    background-color: rgb(235 136 15);
+}     
 #navegacao ul{                          /* Abrange a Lista que compõe os itens do navbar */
     list-style-type: none;
-    /*display: flex;
-    flex-wrap:wrap;*/
     justify-content: flex-end;
 } 
 #navegacao li{                          /* Abrange os itens dessa Lista */
     text-align: center;
-    background-color: darkblue;
+    background-color: rgb(54 54 54);
     padding: 4px;
     margin: 0.5px;
     transition: background-color 0.7s;
@@ -111,6 +114,11 @@ html, body{                 /* Contempla todo o conteúdo. */
 /*==================================================================================================================*/
 
 /* PRINCIPAL */
+
+.grid #principal{
+    background-color: rgb(73, 122, 226);
+}
+
 .grid #principal > article{ /* Abrange o artigo principal */
     text-align: justify;
     padding: 13px;
@@ -154,14 +162,19 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 }
 
 /*==================================================================================================================*/
+/* SIDEBAR */
+#sidebar   {
+    background-color: rgb(54 54 54);
+}
 
+/*==================================================================================================================*/
 /* RODAPE */
 .grid aside, #rodape{
     padding-left: 0.5em;
 }
-
 #rodape{
     padding: 25px;
+    background-color: rgb(70, 179, 37);
 }
 #rodape table{
     margin: auto;
