@@ -119,12 +119,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 article > a{                /* Abrange o hiperlink contido no artigo */
     display: inline;
 }
-#iframe_principal{
-    background-color: brown;
-    margin: 0 auto;
-    height: 300px;
-    width: 400px;
-}
+
 #principal_bemvindo{
 	font-family: 'Piazzolla', serif;
 	font-size: 35px;
@@ -132,10 +127,32 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 	text-align:center;
 	text-shadow:1px 1.5px gray
 }
-#iframe_principal > img{
-    max-width: 100%;
-    height: auto;
+#tabela_principal{
+  text-align: justify;
+  margin: 0 auto;
+  background: lightgrey;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
 }
+#tabela_principal td{
+  border: 1.5px solid black;
+  padding: 5px 15px 5px 10px;
+}
+.titulo_tab_p{
+  text-align: center;
+  width: 10%;
+  vertical-align: middle;
+}
+#iframe_p{
+  display: block;
+  width: 300px;
+  max-width: 75%;
+  height: 25vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 /*==================================================================================================================*/
 
 /* RODAPE */

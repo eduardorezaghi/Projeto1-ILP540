@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/breakpoints.css">
-        <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
-        <title>Projeto 1</title>
-    </head>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/breakpoints.css">
+	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Piazzolla:ital,wght@1,200&display=swap"
+	 rel="stylesheet">
+	<title>Projeto 1</title>
+</head>
 
 
-    <body>  <!-- Início do body: corpo principal do site, que contém toda a estrutura + conteúdo.. -->
-        <div class="grid">      <!-- Div utilizada como a grade (grid) na qual os outros elementos estarão contidos. -->
+<body>
+	<!-- Início do body: corpo principal do site, que contém toda a estrutura + conteúdo.. -->
+	<div class="grid">
+		<!-- Div utilizada como a grade (grid) na qual os outros elementos estarão contidos. -->
 
 
 
-            <header id="cabecalho" class="grid-item">           <!-- Cabeçalho: para incluir informação do título e o logo do nosso site. -->
-                <h1 id="titulo_pag"> Projeto 1
-                    <img id="logo" src="Tux.png" alt="Pinguim do Linux">
+		<header id="cabecalho" class="grid-item">
+			<!-- Cabeçalho: para incluir informação do título e o logo do nosso site. -->
+			<h1 id="titulo_pag"> Projeto 1
+				<img id="logo" src="Tux.png" alt="Pinguim do Linux">
                 </h1>
             </header>
 
@@ -40,19 +45,38 @@
 
 
 
-
+            
             <section id="principal" class="grid-item">                  <!-- Seção principal do site: contém os artigos principais. -->
-                Principal(c)
-                <article> <!-- Artigo que contém conteúdo. -->
-                    <h2 id="principal_bemvindo" class="artigo1_conteudo">Bem Vindo!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> <!-- Parágrafo. -->  
-                    <a href="http://google.com" target="_blank" class="artigo1_conteudo">Google</a>  <!-- Link que abre em uma nova guia. -->
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- Parágrafo. -->
-                    
-                </article>
+            Principal(c)
+              <article> <!-- Artigo que contém conteúdo. -->
+                  <h2 id="principal_bemvindo" class="artigo1_conteudo">Bem Vindo!</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> <!-- Parágrafo. -->  
+                  <a href="http://google.com" target="_blank" class="artigo1_conteudo">Google</a>  <!-- Link que abre em uma nova guia. -->
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- Parágrafo. -->
+                  
+              </article>
+              <article>
+                <table id="tabela_principal">
+                    <tr class="linha_tab_p">
+                        <td class="titulo_tab_p">Linux</td>
+                        <td class="cont_tab_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                    </tr>
+                    <tr class="linha_tab_p">
+                        <td class="titulo_tab_p">Windows</td>
+                        <td class="cont_tab_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>
+                            <iframe id="iframe_p" src="https://www.youtube.com/embed/OiACjVsxFYk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </td>
+                    <tr class="linha_tab_p">
+                        <td class="titulo_tab_p">Free BSD</td>
+                        <td class="cont_tab_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</td>
+                    </tr>
+                </table>   
+              </article>
             </section>
+            
+
 
 
 

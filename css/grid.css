@@ -15,9 +15,9 @@ linear-gradient(47deg,
      grid-template: 
      "a a a" auto 
      "b b b" auto 
-     "c c d" auto 
-     "c c d" auto 
-     "e e e" 130px / 5fr 5fr 2fr; 
+     "d c c" auto 
+     "d c c" auto 
+     "e e e" 130px / 2fr 5fr 5fr; 
   }
 }
 
