@@ -1,23 +1,9 @@
-#cabecalho {grid-area: a; 
-background: 
-linear-gradient(47deg,
- rgba(19,21,22,1) 0%, 
- rgba(68,63,61,1) 63%, 
- rgb(115 106 101) 100%);}  
-    #navegacao {grid-area: b;background-color: darkblue;}      
-    #principal {grid-area: c; background-color: rgb(73, 122, 226);}
-    #sidebar   {grid-area: d; background-color: mintcream;}
-    #rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
-
-@media screen {                            /* Para dispositivos de quaisquer tamanhos... */
-  
+@media screen {                            /* Para qualquer tamanho de tela */
     #titulo_pag{
         font-size: 180%;
         line-height: 50px;
         text-align: center;
         line-height: 90px;
-        
-
     }
     #logo {
         width: 16%;
@@ -69,14 +55,5 @@ linear-gradient(47deg,
     }
     #lista_navegacao{
         justify-content: flex-end;
-    }
-}
-
-@media screen and (min-width:1200px){
-    #grid_container{
-        max-width: 1440px;
-    }
-    #cabecalho{
-        width: 100%;
     }
 }
