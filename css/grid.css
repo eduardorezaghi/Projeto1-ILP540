@@ -1,15 +1,9 @@
 @media screen and (min-width:1200px){
-#cabecalho {grid-area: a; 
-background: 
-linear-gradient(47deg,
- rgba(19,21,22,1) 0%, 
- rgba(68,63,61,1) 63%, 
- rgb(115 106 101) 100%);}           
-#navegacao {grid-area: b;/* background-color: hotpink; */}      
-#principal {grid-area: c; background-color: rgb(73, 122, 226);}
-#sidebar   {grid-area: d; background-color: mintcream;}
-#rodape    {grid-area: e; background-color: rgb(70, 179, 37);}
-
+  #cabecalho {grid-area: a; }  
+  #navegacao {grid-area: b; }      
+  #principal {grid-area: c; }
+  #sidebar   {grid-area: d; }
+  #rodape    {grid-area: e; }  
 .grid {                  
      display: grid;
      grid-template: 
@@ -19,6 +13,12 @@ linear-gradient(47deg,
      "d c c" auto 
      "e e e" 130px / 2fr 5fr 5fr; 
   }
+    #grid_container{
+      max-width: 1440px;
+    }
+  #cabecalho{
+      width: 100%;
+    }
 }
 
 @media screen and (max-width:649px) {
