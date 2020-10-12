@@ -116,7 +116,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 /* PRINCIPAL */
 
 .grid #principal{
-    background-color: rgb(73, 122, 226);
+    background-color: rgb(79 79 79);
 }
 
 .grid #principal > article{ /* Abrange o artigo principal */
