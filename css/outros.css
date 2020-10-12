@@ -1,0 +1,23 @@
+#logo_bsd{
+    display: block;
+    margin: 15px auto;
+    width: 20%;
+    max-width: 30%;
+    height: auto;
+    transition: width 1.2s;
+  }   #logo_bsd:hover{
+      width: 70%;
+}
+
+#ilustracoes{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px solid lightcoral;
+
+}   #ilustracoes figure{
+    align-items: center;
+    justify-content: center;
+    flex: 10%;
+    padding: 5px;
+}
