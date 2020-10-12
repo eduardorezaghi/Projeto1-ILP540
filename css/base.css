@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
     box-sizing: border-box
 }
@@ -33,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	
 }
 blockquote, q {
 	quotes: none;
@@ -121,7 +120,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 
 .grid #principal > article{ /* Abrange o artigo principal */
     text-align: justify;
-    padding: 13px;
+    padding: 25px;
 } 
 
 article > a{                /* Abrange o hiperlink contido no artigo */
@@ -165,6 +164,9 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 /* SIDEBAR */
 #sidebar   {
     background-color: rgb(54,54,54);
+} #sidebar ul li{
+  color: white;  
+  list-style: none;
 }
 
 /*==================================================================================================================*/
@@ -174,7 +176,7 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 }
 #rodape{
     padding: 25px;
-    background: linear-gradient(47deg,rgba(19,21,22,1) 0%, rgba(68,63,61,1) 63%, rgb(115 106 101) 100%);
+    background: linear-gradient(47deg,rgba(19,21,22,1) 0%, rgba(68,63,61,1) 63%, rgb(115,106,101) 100%);
     border: solid 1px rgb(235,136,15);
     text-align: center;
 }
@@ -194,5 +196,7 @@ article > a{                /* Abrange o hiperlink contido no artigo */
       color: white;    
       display:block; 
       padding:10px;
+} address{
+  color: white;  
 }
 

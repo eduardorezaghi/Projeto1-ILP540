@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/breakpoints.css">
-        <link rel="stylesheet" href="css/windows.css">          <!-- Para elementos dessa página. -->
-        <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
-        <title>Projeto 1</title>
-    </head>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/breakpoints.css">
+	<link rel="stylesheet" href="css/windows.css">
+	<!-- Para elementos dessa página. -->
+	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Piazzolla:ital,wght@1,200&display=swap"
+	 rel="stylesheet">
+	<title>Projeto 1</title>
+</head>
 
 
-    <body>  <!-- Início do body: corpo principal do site, que contém toda a estrutura + conteúdo.. -->
-        <div class="grid">      <!-- Div utilizada como a grade (grid) na qual os outros elementos estarão contidos. -->
+<body>
+	<!-- Início do body: corpo principal do site, que contém toda a estrutura + conteúdo.. -->
+	<div class="grid">
+		<!-- Div utilizada como a grade (grid) na qual os outros elementos estarão contidos. -->
 
 
 
-            <header id="cabecalho" class="grid-item">           <!-- Cabeçalho: para incluir informação do título e o logo do nosso site. -->
-                <h1 id="titulo_pag"> Projeto 1
-                    <img id="logo" src="imagens/Tux.png" alt="Pinguim do Linux">
+		<header id="cabecalho" class="grid-item">
+			<!-- Cabeçalho: para incluir informação do título e o logo do nosso site. -->
+			<h1 id="titulo_pag"> Projeto 1
+				<img id="logo" src="imagens/Tux.png" alt="Pinguim do Linux">
                 </h1>
             </header>
 
@@ -51,6 +57,14 @@
                         Adipisci perspiciatis deleniti expedita delectus, recusandae dicta incidunt distinctio suscipit exercitationem? 
                         Recusandae assumenda non ad fugiat eos incidunt repudiandae! In, reiciendis debitis.</p>
                 </article>
+                <article id="lst_conteudo">
+                  <ul id="lst_ver" style="list-style-type: disc;"><h2>Versões</h2>
+                    <li class="lst_ver_item">Windows XP: saiba mais <a href="https://pt.wikipedia.org/wiki/Windows_XP">aqui</a>; </li>
+                    <li class="lst_ver_item">Windows 7: saiba mais <a href="https://pt.wikipedia.org/wiki/Windows_7">aqui</a>; </li>
+                    <li class="lst_ver_item">Windows 10: saiba mais <a href="https://pt.wikipedia.org/wiki/Windows_10">aqui</a>. </li>
+                  </ul>
+                </article>
+
             </section>
 
 
@@ -58,8 +72,17 @@
             <aside id="sidebar" class="grid-item">                      <!-- Menu aside: contém links para navegar pelos artigos. -->
                 Sidebar(d)
                 <ul id="menu_aside" class="menu_nav">   <!-- Menu aside em formato de lista. -->
-                    <li>Teste 1</li>     <!-- Item da lista. -->
-                    <li>Teste 2</li>     <!-- Item da lista. -->
+                    <li>Artigos Mais lidos</li>     <!-- Titulo da Lista -->
+                    <li>Windows</li>      <!-- Item da lista. -->
+                    <li>Artigo 1</li>     <!-- Item da lista. -->
+                    <li>Artigo 2</li>     <!-- Item da lista. -->
+                    <li>Artigo 3</li>     <!-- Item da lista. -->
+                    <li>Artigo 4</li>     <!-- Item da lista. -->
+                    <li>Linux</li>        <!-- Item da lista. -->
+                    <li>Artigo 1</li>     <!-- Item da lista. -->
+                    <li>Artigo 2</li>     <!-- Item da lista. -->
+                    <li>Artigo 3</li>     <!-- Item da lista. -->
+                    <li>Artigo 4</li>     <!-- Item da lista. -->
                 </ul>
             </aside>
 
