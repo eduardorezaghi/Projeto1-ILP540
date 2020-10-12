@@ -1,0 +1,10 @@
+#logo_win10{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    max-width: 30%;
+    height: auto;
+    transition: width 1.2s;
+  }   #logo_win10:hover{
+      width: 70%;
+}
