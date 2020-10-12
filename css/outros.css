@@ -12,6 +12,7 @@
 #ilustracoes{
     display: flex;
     margin-top: 25px;
+    padding: 25px;
     margin-bottom: 25px;
     border: 2px solid lightcoral;
 

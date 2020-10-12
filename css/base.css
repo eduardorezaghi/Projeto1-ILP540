@@ -137,9 +137,9 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 }
 #tabela_principal{
   text-align: justify;
-  color:black;
+  color: rgb(232, 230, 227);
   margin: 0 auto;
-  background: lightgrey;
+  background-color: rgb(49, 53, 55);
   width: 90%;
   max-width: 100%;
   height: auto;
