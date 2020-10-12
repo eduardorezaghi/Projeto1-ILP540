@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/breakpoints.css">
+        <link rel="stylesheet" href="css/windows.css">          <!-- Para elementos dessa página. -->
+        <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Piazzolla:ital,wght@1,200&display=swap" rel="stylesheet">
+        <title>Projeto 1</title>
+    </head>
+
+
+    <body>  <!-- Início do body: corpo principal do site, que contém toda a estrutura + conteúdo.. -->
+        <div class="grid">      <!-- Div utilizada como a grade (grid) na qual os outros elementos estarão contidos. -->
+
+
+
+            <header id="cabecalho" class="grid-item">           <!-- Cabeçalho: para incluir informação do título e o logo do nosso site. -->
+                <h1 id="titulo_pag"> Projeto 1
+                    <img id="logo" src="imagens/Tux.png" alt="Pinguim do Linux">
+                </h1>
+            </header>
+
+
+
+
+
+            <nav id="navegacao" class="grid-item">                  <!-- Menu de navegação: possibilita o usuário de navegar pelas páginas do site. -->
+                <ul id="lista_navegacao">    <!-- Lista que compõe os itens do navbar. -->
+                    <li>    <a href="index.html">Home</a>         </li> <!-- Item da lista. -->
+                    <li>    <a href="#">Windows</a>               </li> <!-- Item da lista. -->
+                    <li>    <a href="linux.html">Linux</a>        </li> <!-- Item da lista. -->
+                    <li>    <a href="outros.html">Outros</a>      </li> <!-- Item da lista. -->
+                    <li>    <a href="contato.html">Contato</a>    </li> <!-- Item da lista. -->
+                </ul>
+            </nav>
+
+
+
+
+
+            <section id="principal" class="grid-item">                  <!-- Seção principal do site: contém os artigos principais. -->
+                Principal(c)
+                <article> <!-- Artigo que contém conteúdo. -->
+
+                    <img id="logo_win10" src="imagens/Windows_10_Logo.svg" alt="Logo do Windows 10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Adipisci perspiciatis deleniti expedita delectus, recusandae dicta incidunt distinctio suscipit exercitationem? 
+                        Recusandae assumenda non ad fugiat eos incidunt repudiandae! In, reiciendis debitis.</p>
+                </article>
+            </section>
+
+
+
+            <aside id="sidebar" class="grid-item">                      <!-- Menu aside: contém links para navegar pelos artigos. -->
+                Sidebar(d)
+                <ul id="menu_aside" class="menu_nav">   <!-- Menu aside em formato de lista. -->
+                    <li>Teste 1</li>     <!-- Item da lista. -->
+                    <li>Teste 2</li>     <!-- Item da lista. -->
+                </ul>
+            </aside>
+
+
+
+
+
+            <footer id="rodape" class="grid-item">                      <!-- Rodapé: contém um menu de navegação igual ao <nav>, mas em formato de tabela. -->
+                <table>         <!-- Tabela contida no rodapé (footer), que representa o menu de navegação. -->
+                    <tr>    <!-- Linha da tabela (table row) -->
+                        <td><a href="#">Home</a></td>                            <!-- "Coluna" da tabela, que contém dados (table data) -->
+                        <td><a href="maislidos.html">Artigos mais lidos</a></td> <!-- "Coluna" da tabela, que contém dados (table data) -->
+                        <td><a href="outros.html">Outros</a></td>                <!-- "Coluna" da tabela, que contém dados (table data) -->
+                        <td><a href="contato.html">Contato</a></td>              <!-- "Coluna" da tabela, que contém dados (table data) -->
+                    </tr>
+                </table>
+
+                <address>
+                    <p>&copy; ILP-540 – Fatec-SP</p>
+                </address>
+            </footer>
+
+
+
+        </div>  <!-- Fim da Grade (grid) -->
+    </body>
+</html>
