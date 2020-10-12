@@ -121,6 +121,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 .grid #principal > article{ /* Abrange o artigo principal */
     text-align: justify;
     padding: 25px;
+    color:lightgrey;
 } 
 
 article > a{                /* Abrange o hiperlink contido no artigo */
@@ -136,6 +137,7 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 }
 #tabela_principal{
   text-align: justify;
+  color:black;
   margin: 0 auto;
   background: lightgrey;
   width: 90%;
