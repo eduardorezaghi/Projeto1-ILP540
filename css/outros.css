@@ -11,8 +11,8 @@
 
 #ilustracoes{
     display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: 2px solid lightcoral;
 
 }   #ilustracoes figure{
