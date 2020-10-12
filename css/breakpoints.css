@@ -30,7 +30,9 @@
     #lista_navegacao{
         display: block;
     }
-    /* Adicionar footer aqui */                                                                                   
+    #rodape td{
+      min-width: 160px;
+    }                                                                                  
 }
 
 @media screen and (min-width:650px) {

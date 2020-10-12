@@ -11,7 +11,7 @@
      "b b b" auto 
      "d c c" auto 
      "d c c" auto 
-     "e e e" 130px / 2fr 5fr 5fr; 
+     "e e e" 180px / 2fr 5fr 5fr; 
   }
     #grid_container{
       max-width: 1440px;

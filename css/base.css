@@ -89,7 +89,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 
 /* MENU DE NAVEGAÇÃO (NAV-BAR) */
 #navegacao {
-    background-color: rgb(235 136 15);
+    background-color: rgb(235,136,15);
 }     
 #navegacao ul{                          /* Abrange a Lista que compõe os itens do navbar */
     list-style-type: none;
@@ -97,7 +97,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 } 
 #navegacao li{                          /* Abrange os itens dessa Lista */
     text-align: center;
-    background-color: rgb(54 54 54);
+    background-color: rgb(54,54,54);
     padding: 4px;
     margin: 0.5px;
     transition: background-color 0.7s;
@@ -116,7 +116,7 @@ html, body{                 /* Contempla todo o conteúdo. */
 /* PRINCIPAL */
 
 .grid #principal{
-    background-color: rgb(79 79 79);
+    background-color: rgb(79,79,79);
 }
 
 .grid #principal > article{ /* Abrange o artigo principal */
@@ -164,7 +164,7 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 /*==================================================================================================================*/
 /* SIDEBAR */
 #sidebar   {
-    background-color: rgb(54 54 54);
+    background-color: rgb(54,54,54);
 }
 
 /*==================================================================================================================*/
@@ -181,5 +181,13 @@ article > a{                /* Abrange o hiperlink contido no artigo */
     margin-top: 20px;
 } #rodape td{
     display: inline-block;
-    min-width: 160px;
+    min-width: 95%;
+    border: solid 1px orange;
+    background: rgb(54,54,54);
+}   #rodape a{
+      text-decoration: none;
+      color: white;    
+      display:block; 
+      padding:10px;
 }
+
