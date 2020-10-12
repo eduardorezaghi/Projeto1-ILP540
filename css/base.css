@@ -174,16 +174,21 @@ article > a{                /* Abrange o hiperlink contido no artigo */
 }
 #rodape{
     padding: 25px;
-    background-color: rgb(70, 179, 37);
+    background: linear-gradient(47deg,rgba(19,21,22,1) 0%, rgba(68,63,61,1) 63%, rgb(115 106 101) 100%);
+    border: solid 1px rgb(235,136,15);
+    text-align: center;
 }
 #rodape table{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 } #rodape td{
-    display: inline-block;
+	display: inline-block;
     min-width: 95%;
-    border: solid 1px orange;
+    height: auto;
+    border: solid 2px rgb(235,136,15);
     background: rgb(54,54,54);
+    text-align: center;
 }   #rodape a{
       text-decoration: none;
       color: white;    
