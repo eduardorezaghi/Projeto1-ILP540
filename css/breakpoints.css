@@ -46,6 +46,9 @@
     #navegacao #lista_navegacao li{
         width: calc(100%/4);
     }
+    #rodape td{           /* Inclusão do Rodapé. */
+    min-width: 225px;
+    }
 }
 
 @media screen and (min-width:980px) {
