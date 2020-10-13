@@ -10,3 +10,5 @@ O esqueleto do projeto já está sendo criado. Esse repositório serve para vers
 *Estilizei o cabeçalho e modifiquei a fonte para uma importada do site Google Fonts. Mudei a logo para a logo do Linux, já que nosso site será dessa temática.*<br>
 **10.10 – Inclui tabela de conteúdo, movi background-color para base.css**<br>
 *Inclui uma tabela contendo informações sobre alguns SO's. Movi a propriedade background-color para o base.css, para não haver interferências no layout. Mudei a cor do nav-bar e side-bar.*<br>
+**12.10 – Inclui conteúdo nas páginas, mudei cores e layout.**<br>
+*Inclui conteúdo da página outros.html, modifiquei algumas medidas de layout, cores e alterações gerais.*<br>
