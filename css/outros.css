@@ -10,15 +10,33 @@
 }
 
 #ilustracoes{
-    display: flex;
+    background-color: rgb(49, 53, 55);
+    border: 2px solid rgb(235,136,15);
+    margin: 0 auto;
     margin-top: 25px;
-    padding: 25px;
     margin-bottom: 25px;
-    border: 2px solid lightcoral;
-
-}   #ilustracoes figure{
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex: 10%;
-    padding: 5px;
+    align-items: center;
+    width: 80%;
+    padding: 15px;
+  }
+  #ilustracoes > figure{
+    min-width: 250px;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+
+    margin: 0 auto;
+    padding: 15px;;
+  } figure img{
+    width: 65%;
+    max-width: 100%;
+    height: auto;
+  } figure .legenda{
+    font-size: 14px;
+    text-align: justify;
+    font-style: italic;
+    text-shadow: 1px 0.5px rgb(235,136,15);
 }
