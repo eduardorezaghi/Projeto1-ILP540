@@ -8,3 +8,8 @@
   }   #logo_win10:hover{
       width: 70%;
 }
+
+video{
+  display: block;
+  margin: 0 auto;
+}
