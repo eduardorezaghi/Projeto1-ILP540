@@ -19,7 +19,7 @@ legend{
     text-shadow: -1.9px -2.3px 3px #000;
 }
 
-form >fieldset{
+form > fieldset{
     background-color: rgb(79 79 79);
     align-content: center;
     padding: 15px;
@@ -50,32 +50,21 @@ input[type=submit] {
     float: right;
 }
 
-/* Style the container */
-#contato {
-
-  }
-  
-/* Floating column for labels: 25% width */
 .rotulo {
 float: left;
 width: 25%;
 margin-top: 6px;
 }
 
-/* Floating column for inputs: 75% width */
 .insercao {
 float: left;
-width: 75%;
+width: 100%;
 margin-top: 6px;
 }
 
-/* Clear floats after the columns */
-.linha:after {content: "";display: table;clear: both;margin: 5px 0 5px 0;}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.rotulo, .insercao, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-}
+.linha:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 5px 0 5px 0;
 }
